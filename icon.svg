@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1677ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#07152f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Squircle -->
+  <rect width="512" height="512" rx="110" fill="url(#grad)" />
+  <!-- Running Track Curve Accent -->
+  <path d="M 80 430 C 180 460, 340 460, 440 390" fill="none" stroke="#19a974" stroke-width="18" stroke-linecap="round" opacity="0.8" />
+  <path d="M 120 455 C 220 485, 360 485, 460 420" fill="none" stroke="#60a5fa" stroke-width="12" stroke-linecap="round" opacity="0.6" />
+  <!-- Runner Figure (White Silhouette) -->
+  <g fill="#ffffff">
+    <!-- Head -->
+    <circle cx="340" cy="130" r="38" />
+    <!-- Torso -->
+    <path d="M 285 185 L 340 180 C 355 180, 368 192, 365 208 L 330 310 L 285 270 Z" />
+    <!-- Back Arm -->
+    <path d="M 330 200 L 390 230 C 400 236, 403 250, 395 260 L 380 280" fill="none" stroke="#ffffff" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Front Arm -->
+    <path d="M 310 195 L 250 225 L 225 200" fill="none" stroke="#ffffff" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Front Leg -->
+    <path d="M 325 305 L 380 375 L 420 370" fill="none" stroke="#ffffff" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Back Leg -->
+    <path d="M 290 270 L 220 315 L 180 390" fill="none" stroke="#ffffff" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

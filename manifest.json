@@ -1,0 +1,20 @@
+{
+  "name": "RunTogether - Community Running App",
+  "short_name": "RunTogether",
+  "description": "Smart community running tracker with automatic 400m GPS lap detection and live race management.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2f6fc",
+  "theme_color": "#07152f",
+  "orientation": "portrait",
+  "categories": ["sports", "health", "fitness"],
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
